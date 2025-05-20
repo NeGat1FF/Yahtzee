@@ -5,9 +5,17 @@
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/yahtzee.git
-cd yahtzee
+git clone https://github.com/NeGat1FF/Yahtzee
+cd Yahtzee
 ```
+
+Create and activate a virtual environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
 Use one of the scripts to run the game:
 
 On Windows:
@@ -19,6 +27,7 @@ On Windows:
 On Linux:
 
 ```bash
+chmod +x run.sh
 ./run.sh
 ```
 

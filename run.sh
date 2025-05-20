@@ -2,7 +2,7 @@
 
 # Navigate to FastAPI backend and run it
 cd app
-pip install -r requrements.txt
+pip install -r requirements.txt
 echo "Starting FastAPI backend..."
 uvicorn main:app --reload --port 8000 & 
 FASTAPI_PID=$!
