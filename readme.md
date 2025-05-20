@@ -9,24 +9,23 @@ git clone https://github.com/NeGat1FF/Yahtzee
 cd Yahtzee
 ```
 
-Create and activate a virtual environment
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-Use one of the scripts to run the game:
+Create a virtual environment and run the game
 
 On Windows:
 
 ```bash
+python -m venv .venv
+.\.venv\Scripts\activate.bat
+
 .\run.bat
 ```
 
 On Linux:
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+
 chmod +x run.sh
 ./run.sh
 ```
