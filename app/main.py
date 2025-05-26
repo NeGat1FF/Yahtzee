@@ -9,9 +9,9 @@ DB_PATH = "sqlite.db"
 
 combos = {
     "Pair": 0.86,
-    "Full House": 1.72,
-    "Yahtzee": 2.58,
-    "Three Pairs": 3.44,
+    "Full House": 1.71,
+    "Yahtzee": 2.57,
+    "Three Pairs": 3.42,
     "Other": 0.0
 }
 
@@ -31,7 +31,7 @@ def roll():
         return "Full House", results
     elif values.count(2) == 3:
         return "Three Pairs", results
-    elif values.count(2) in (1,2) or 3 in values or 4 in values:
+    elif values.count(2) in (1,2) or 3 in values or 4 in values or 5 in values:
         return "Pair", results
     else:
         return "Other", results

@@ -42,7 +42,7 @@ combos = {
 }
 ```
 
-With the provided coefficients , the RTP is about 110.70%. To get RTP of about 95%, you can use the following coefficients:
+With the provided coefficients , the RTP is about 111.05%. To get RTP of about 95%, you can use the following coefficients:
 
 ```python
 combos = {
@@ -70,9 +70,9 @@ New coefficients:
 ```python
 combos = {
     "Pair": 0.86,
-    "Full House": 1.72,
-    "Yahtzee": 2.58,
-    "Three Pairs": 3.44,
+    "Full House": 1.71,
+    "Yahtzee": 2.57,
+    "Three Pairs": 3.42,
     "Other": 0.0
 }
 ```
