@@ -8,10 +8,10 @@ import aiosqlite
 DB_PATH = "sqlite.db"
 
 combos = {
-    "Pair": 0.85,
-    "Full House": 1.7,
-    "Yahtzee": 2.55,
-    "Three Pairs": 3.39,
+    "Pair": 0.86,
+    "Full House": 1.72,
+    "Yahtzee": 2.58,
+    "Three Pairs": 3.44,
     "Other": 0.0
 }
 
@@ -25,7 +25,7 @@ def roll():
 
     values = list(count.values())
 
-    if 5 in values:
+    if 6 in values:
         return "Yahtzee", results
     elif 4 in values and 2 in values:
         return "Full House", results
